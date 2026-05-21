@@ -229,7 +229,7 @@ export function HeroSection() {
             className="text-muted-foreground hover:text-primary font-semibold px-8 py-6 text-base hover:scale-105 transition-all"
             asChild
           >
-            <a href="/cv-vitor-marques.pdf" download>
+            <a href="/cv/Vitor-Marques-Silva-Curriculo.pdf" download>
               <FileText className="w-4 h-4 mr-2" />
               Download CV
             </a>
