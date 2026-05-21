@@ -73,7 +73,7 @@ export function AboutSection() {
                 <p className="text-muted-foreground leading-relaxed">
                   Profissional com perfil analítico e forte habilidade de comunicação, capaz de traduzir demandas complexas 
                   de negócio em arquiteturas de dados otimizadas. Minha experiência combina engenharia de dados com 
-                  desenvolvimento full stack, permitindo criar soluções completas desde a aplicação até o insight.
+                  análise de dados avançada, permitindo criar soluções completas desde a ingestão até o insight estratégico.
                 </p>
               </CardContent>
             </Card>
@@ -118,6 +118,12 @@ export function AboutSection() {
                 />
                 <CredentialCard
                   icon={GraduationCap}
+                  title="Programador de Computadores"
+                  institution="Prepara Cursos"
+                  period="Concluído em 07/2024"
+                />
+                <CredentialCard
+                  icon={GraduationCap}
                   title="Técnico em Administração"
                   institution="ETEC - Escola Técnica Estadual"
                   period="Concluído em 2021"
@@ -129,7 +135,7 @@ export function AboutSection() {
             <div>
               <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
                 <Award className="w-5 h-5 text-accent" />
-                Certificações
+                Certificações e Idiomas
               </h3>
               <div className="space-y-3">
                 <CredentialCard
@@ -144,6 +150,12 @@ export function AboutSection() {
                   institution="AWS & Santander"
                   period="2025"
                   status="Em andamento"
+                />
+                <CredentialCard
+                  icon={Award}
+                  title="Inglês Avançado (C1)"
+                  institution="Wise Up"
+                  period="Concluído em 01/2022"
                 />
               </div>
             </div>

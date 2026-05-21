@@ -14,21 +14,21 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Vitor Marques Silva | Engenheiro de Dados & Full Stack',
+  title: 'Vitor Marques Silva | Engenheiro de Dados & Analista de Dados',
   description: 'Especialista na construção de pipelines de dados modernos, arquiteturas de Big Data (Medallion) e ecossistemas escaláveis de nuvem. Portfólio profissional de Engenharia e Análise de Dados.',
-  keywords: ['Engenheiro de Dados', 'Data Engineer', 'Full Stack', 'AWS', 'Azure', 'Databricks', 'PySpark', 'Power BI', 'Python', 'React'],
+  keywords: ['Engenheiro de Dados', 'Data Engineer', 'Analista de Dados', 'Data Analyst', 'AWS', 'Azure', 'Databricks', 'PySpark', 'Power BI', 'Python', 'SQL'],
   authors: [{ name: 'Vitor Marques Silva' }],
   creator: 'Vitor Marques Silva',
   openGraph: {
     type: 'website',
     locale: 'pt_BR',
-    title: 'Vitor Marques Silva | Engenheiro de Dados & Full Stack',
+    title: 'Vitor Marques Silva | Engenheiro de Dados & Analista de Dados',
     description: 'Especialista na construção de pipelines de dados modernos e arquiteturas de Big Data.',
     siteName: 'VitorMarques.data',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vitor Marques Silva | Engenheiro de Dados & Full Stack',
+    title: 'Vitor Marques Silva | Engenheiro de Dados & Analista de Dados',
     description: 'Especialista na construção de pipelines de dados modernos e arquiteturas de Big Data.',
   },
   robots: {

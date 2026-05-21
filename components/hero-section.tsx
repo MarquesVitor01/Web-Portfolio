@@ -136,9 +136,9 @@ function DataParticles() {
 export function HeroSection() {
   const roles = [
     'Engenheiro de Dados',
-    'Desenvolvedor Full Stack',
+    'Analista de Dados',
     'Data Specialist',
-    'Cloud Architect'
+    'Cloud Data Architect'
   ]
 
   const scrollToProjects = () => {
@@ -197,8 +197,8 @@ export function HeroSection() {
           <span className="text-primary font-medium">pipelines de dados modernos</span>,{' '}
           arquiteturas de{' '}
           <span className="text-secondary font-medium">Big Data (Medallion)</span>{' '}
-          e ecossistemas escaláveis de nuvem. Minha base Full Stack me permite arquitetar soluções{' '}
-          <span className="text-accent font-medium">ponta a ponta</span>, ligando a geração do dado na aplicação até o insight estratégico na ponta.
+          e ecossistemas escaláveis de nuvem. Transformo dados brutos em{' '}
+          <span className="text-accent font-medium">insights estratégicos</span>, conectando a engenharia de dados ao Business Intelligence para decisões data-driven.
         </p>
 
         {/* Botões de ação */}

@@ -4,7 +4,6 @@ import {
   Cloud, 
   Database, 
   BarChart2, 
-  Code2, 
   Layers, 
   Sparkles,
   Server,
@@ -12,9 +11,8 @@ import {
   Table2,
   PieChart,
   LineChart,
-  FileCode,
-  Globe,
-  Layout
+  Cog,
+  Gauge
 } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
@@ -51,50 +49,51 @@ function TechBadge({ name, color }: { name: string; color: 'primary' | 'secondar
 // Dados das categorias de habilidades
 const skillCategories: SkillCategory[] = [
   {
+    title: 'Linguagens & SQL',
+    description: 'Domínio de linguagens de programação e consulta para manipulação e transformação de dados',
+    icon: Database,
+    color: 'primary',
+    technologies: [
+      { name: 'SQL Avançado' },
+      { name: 'PL/pgSQL' },
+      { name: 'Spark SQL' },
+      { name: 'Python' },
+      { name: 'PySpark' },
+      { name: 'Pandas' },
+      { name: 'NumPy' },
+      { name: 'DAX' },
+    ]
+  },
+  {
     title: 'Engenharia de Dados & Cloud',
     description: 'Construção de pipelines escaláveis e arquiteturas de dados modernas em ambientes cloud',
     icon: Cloud,
-    color: 'primary',
+    color: 'secondary',
     technologies: [
       { name: 'AWS (EC2, S3, Glue, Athena, Lambda, Redshift, Aurora)' },
       { name: 'Azure (Data Factory, Databricks, Storage)' },
+      { name: 'GCP (BigQuery, Cloud Storage)' },
       { name: 'Apache Spark' },
       { name: 'Delta Lake' },
       { name: 'Arquitetura Medalhão' },
+      { name: 'ETL/ELT' },
       { name: 'Modelagem Dimensional' },
-      { name: 'Governança de Dados' },
-      { name: 'Big Data' },
     ]
   },
   {
-    title: 'Data & Analytics',
+    title: 'Data Analytics & BI',
     description: 'Análise de dados, criação de dashboards e storytelling para tomada de decisão',
     icon: BarChart2,
-    color: 'secondary',
+    color: 'accent',
     technologies: [
-      { name: 'SQL Avançado' },
-      { name: 'Python (PySpark, Pandas, NumPy)' },
-      { name: 'Análise Exploratória' },
-      { name: 'ETL/ELT' },
       { name: 'Microsoft Power BI' },
-      { name: 'Excel Avançado' },
+      { name: 'Análise Exploratória' },
       { name: 'Storytelling com Dados' },
       { name: 'Dashboards Executivos' },
       { name: 'KPIs e OKRs' },
-    ]
-  },
-  {
-    title: 'Desenvolvimento Full Stack',
-    description: 'Criação de aplicações web modernas com foco em performance e experiência do usuário',
-    icon: Code2,
-    color: 'accent',
-    technologies: [
-      { name: 'React' },
-      { name: 'Next.js' },
-      { name: 'TypeScript' },
-      { name: 'Node.js' },
-      { name: 'Supabase' },
-      { name: 'PostgreSQL' },
+      { name: 'Excel Avançado' },
+      { name: 'Governança de Dados' },
+      { name: 'Big Data' },
     ]
   }
 ]
@@ -223,16 +222,13 @@ export function SkillsSection() {
               <LineChart className="w-5 h-5" /> <span className="text-sm">Python</span>
             </div>
             <div className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
-              <FileCode className="w-5 h-5" /> <span className="text-sm">React</span>
-            </div>
-            <div className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
-              <Globe className="w-5 h-5" /> <span className="text-sm">Next.js</span>
+              <Cog className="w-5 h-5" /> <span className="text-sm">Delta Lake</span>
             </div>
             <div className="flex items-center gap-2 text-muted-foreground hover:text-secondary transition-colors">
               <Database className="w-5 h-5" /> <span className="text-sm">PostgreSQL</span>
             </div>
             <div className="flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors">
-              <Layout className="w-5 h-5" /> <span className="text-sm">Supabase</span>
+              <Gauge className="w-5 h-5" /> <span className="text-sm">DAX</span>
             </div>
           </div>
         </div>

@@ -25,6 +25,21 @@ interface Experience {
 // Dados da experiência profissional
 const experiences: Experience[] = [
   {
+    id: 'autonomo',
+    company: 'Autônomo',
+    role: 'Especialista em Dados (Análise e Engenharia de Dados)',
+    period: '10/2025 - Atual',
+    location: 'São Paulo, SP',
+    description: 'Atuação independente no desenvolvimento, migração e otimização de arquiteturas de dados sob demanda. Engenharia de pipelines para integração de bases descentralizadas, modelagem de bancos de dados relacionais e não-relacionais, automação de rotinas de ETL/ELT e criação de soluções analíticas customizadas de Business Intelligence para empresas e clientes corporativos.',
+    achievements: [
+      'Desenvolvimento de pipelines de dados escaláveis para clientes corporativos',
+      'Migração e otimização de arquiteturas de dados legadas para cloud',
+      'Automação de rotinas de ETL/ELT para integração de bases descentralizadas',
+      'Criação de dashboards e relatórios analíticos customizados em Power BI'
+    ],
+    technologies: ['AWS', 'Azure', 'Databricks', 'Python', 'PySpark', 'SQL', 'Power BI', 'Delta Lake']
+  },
+  {
     id: 'g-maps',
     company: 'G. Maps',
     role: 'Analista de Dados',
