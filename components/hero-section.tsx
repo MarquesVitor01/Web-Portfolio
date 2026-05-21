@@ -241,10 +241,6 @@ export function HeroSection() {
           className="animate-fade-in-up absolute bottom-8 left-1/2 -translate-x-1/2"
           style={{ animationDelay: '0.6s' }}
         >
-          <div className="flex flex-col items-center gap-2 text-muted-foreground animate-bounce">
-            <span className="text-xs uppercase tracking-wider">Role para explorar</span>
-            <ArrowDown className="w-4 h-4" />
-          </div>
         </div>
       </div>
     </section>
