@@ -226,15 +226,15 @@ export function ContactSection() {
               <ContactLink
                 icon={Linkedin}
                 label="LinkedIn"
-                value="/in/vitormarquessilva"
-                href="https://linkedin.com/in/vitormarquessilva"
+                value="/in/vitor-marques-9199ab17a"
+                href="https://www.linkedin.com/in/vitor-marques-9199ab17a/"
                 color="primary"
               />
               <ContactLink
                 icon={Github}
                 label="GitHub"
-                value="/vitormarquessilva"
-                href="https://github.com/vitormarquessilva"
+                value="/MarquesVitor01"
+                href="https://github.com/MarquesVitor01"
                 color="accent"
               />
             </div>
