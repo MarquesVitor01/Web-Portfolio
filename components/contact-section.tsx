@@ -286,7 +286,7 @@ export function Footer() {
               <Mail className="w-5 h-5" />
             </a>
             <a 
-              href="https://linkedin.com/in/vitormarquessilva"
+              href="https://www.linkedin.com/in/vitor-marques-9199ab17a/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg bg-muted/50 text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
@@ -295,7 +295,7 @@ export function Footer() {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="https://github.com/vitormarquessilva"
+              href="https://github.com/MarquesVitor01"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg bg-muted/50 text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"

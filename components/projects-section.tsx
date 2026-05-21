@@ -228,7 +228,7 @@ export function ProjectsSection() {
             className="border-primary/50 text-primary hover:bg-primary/10"
             asChild
           >
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/MarquesVitor01" target="_blank" rel="noopener noreferrer">
               <ExternalLink className="w-4 h-4 mr-2" />
               Ver no GitHub
             </a>
