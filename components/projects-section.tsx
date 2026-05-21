@@ -192,7 +192,7 @@ function ProjectCard({ project }: { project: Project }) {
 
 export function ProjectsSection() {
   return (
-    <section id="projetos" className="py-20 md:py-32 relative">
+    <section id="projetos" className=" relative">
       {/* Grid de fundo */}
       <div className="absolute inset-0 grid-background opacity-30" />
       

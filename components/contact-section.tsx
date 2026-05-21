@@ -182,7 +182,7 @@ function ContactForm() {
 
 export function ContactSection() {
   return (
-    <section id="contato" className="py-20 md:py-32 relative">
+    <section id="contato" className="py-10 md:py-12 relative">
       {/* Grid de fundo */}
       <div className="absolute inset-0 grid-background opacity-30" />
       

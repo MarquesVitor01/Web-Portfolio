@@ -42,7 +42,7 @@ function CredentialCard({
 
 export function AboutSection() {
   return (
-    <section id="sobre" className="py-20 md:py-32 relative">
+    <section id="sobre" className=" relative">
       {/* Grid de fundo sutil */}
       <div className="absolute inset-0 grid-background opacity-30" />
       
